@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block titulo %} lista de usuarios {% endblock %}
+
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        lista usuarios
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">usuarios</h4>
+        <div class="table-responsive">
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">Nro_doc</th>
+                        <th scope="col">Nombre_usuario</th>
+                        <th scope="col">Contraseña</th>
+                        <th scope="col">Id_rol</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td scope="row">1435324</td>
+                        <td>maria</td>
+                        <td>aroca213</td>
+                        <td>3</td>
+                        <td>Editar | Borrar</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <div class="card-footer text-muted">
+        Footer
+    </div>
+</div>
+
+{% endblock %}

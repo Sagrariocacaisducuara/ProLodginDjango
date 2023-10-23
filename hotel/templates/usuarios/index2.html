@@ -7,7 +7,7 @@
 
 <div class="card">
     <div class="card-header">
-        lista usuarios
+        <a name="" id="" class="btn btn-success" href="{% url 'crear' %}" role="button">Agregar nuevo usuario</a>
     </div>
     <div class="card-body">
         <h4 class="card-title">usuarios</h4>
@@ -28,7 +28,9 @@
                         <td>maria</td>
                         <td>aroca213</td>
                         <td>3</td>
-                        <td>Editar | Borrar</td>
+                        <td><a name="" id="" class="btn btn-info" href="{% url 'editar' %}" role="button">Editar</a>
+                            <a name="" id="" class="btn btn-danger" href="#" role="button">Borrar</a>
+                        </td>
                         
                     </tr>
                 </tbody>
